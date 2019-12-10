@@ -23,11 +23,6 @@ public class SecondFragments extends Fragment implements View.OnClickListener {
     Button btnAreaOfCircle;
 
 
-    public SecondFragments() {
-        // Required empty public constructor
-    }
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
