@@ -10,6 +10,7 @@
         android:id="@+id/etRadius"
         android:textSize="20sp"
         android:hint="Entre radius"
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
