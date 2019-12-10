@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context="com.binod.fragments.FirstFragment">
+
+    <EditText
+        android:id="@+id/etFirst"
+        android:hint="Entre first number"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etSecond"
+        android:textColor="@color/white"
+        android:hint="Entre Second number"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:textSize="20sp"
+        android:text="Calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
